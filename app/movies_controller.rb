@@ -97,11 +97,11 @@ end
 #   Movie.delete_all
 # end
 
-def can_be_instantiated_and_then_saved
-  movie = Movie.new
-  movie.title = "This is a title."
-  movie.save
-end
+# def can_be_instantiated_and_then_saved
+#   movie = Movie.new
+#   movie.title = "This is a title."
+#   movie.save
+# end
 
 def can_be_created_with_a_hash_of_attributes
   attributes = {
